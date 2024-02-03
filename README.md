@@ -1,2 +1,46 @@
 # KreatPass
-Générateur de mots de passe sécurisé et personnalisable
+
+Inspiré par [MotDePasse.xyz](https://www.motdepasse.xyz/) KreatPass est une application de génération de mots de passe sécurisé et personnalisable. Il permet aux utilisateurs de créer des mots de passe forts en sélectionnant des critères tels que la longueur, l'inclusion de chiffres, de lettres majuscules et minuscules, ainsi que de caractères spéciaux.
+
+## Fonctionnalités
+
+- **Personnalisation**: Choisissez la longueur de votre mot de passe et les types de caractères à inclure.
+- **Sécurité**: Génère des mots de passe complexes pour une sécurité optimale.
+- **Interface utilisateur**: Une interface épurée et facile à utiliser.
+- **Exclusion de caractères similaires**: Évite les confusions en excluant des caractères similaires.
+
+## Installation
+
+Pour utiliser KreatPass, suivez ces étapes :
+
+1. Clonez le dépôt sur votre machine locale en utilisant `git clone https://github.com/Kirua6/KreatPass.git`
+2. Installez [Node.js](https://nodejs.org/en), et les dépendances nécessaires en exécutant `npm install` dans le dossier du projet.
+3. Lancez l'application avec `npm start` ou créer l'application avec 
+
+## Utilisation
+
+Pour générer un mot de passe :
+
+1. Ouvrez KreatPass.
+2. Sélectionnez les critères pour votre mot de passe.
+3. Cliquez sur "Créer votre mot de passe".
+4. Copiez le mot de passe généré et utilisez-le selon vos besoins.
+
+## Contribuer
+
+Les contributions sont les bienvenues! Pour contribuer à KreatPass, veuillez forker le dépôt, créer une branche pour votre fonctionnalité, et soumettre une pull request.
+
+## Licence
+
+KreatPass est distribué sous la licence MIT. Voir `LICENSE` pour plus d'informations.
+
+## Contact
+
+Si vous avez des questions ou des suggestions, n'hésitez pas à ouvrir un issue ou à me contacter directement sur [LinkedIn](https://www.linkedin.com/in/killian-van-ruymbeke-137b27214/).
+
+---
+Créé par [Killian Van Ruymbeke](https://kvrcybertechno.online/)
+
+## Crédits
+
+Cette application utilise des images générées par OpenAI's DALL·E.
