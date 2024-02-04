@@ -32,7 +32,7 @@ Les contributions sont les bienvenues! Pour contribuer à KreatPass, veuillez fo
 
 ## Licence
 
-KreatPass est distribué sous la licence MIT. Voir `LICENSE` pour plus d'informations.
+KreatPass est distribué sous la licence MIT. Voir [`LICENSE`](https://github.com/Kirua6/KreatPass/blob/main/LICENSE) pour plus d'informations.
 
 ## Contact
 
