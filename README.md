@@ -14,8 +14,8 @@ Inspiré par [MotDePasse.xyz](https://www.motdepasse.xyz/), KreatPass est une ap
 Pour utiliser KreatPass, suivez ces étapes :
 
 1. Clonez le dépôt sur votre machine locale en utilisant `git clone https://github.com/Kirua6/KreatPass.git`
-2. Installez [Node.js](https://nodejs.org/en), et les dépendances nécessaires en exécutant `npm install` dans le dossier du projet.
-3. Lancez l'application avec `npm start` ou créer l'application avec 
+2. Installez [Node.js](https://nodejs.org/en), Vérifier son installation avec `node -- version` et `npm --version` 
+3. Lancez l'application avec `npm start` ou créer l'application avec `npx electron-packager . KreatPass --platform=win32 --arch=x64 --icon=KreatPass.ico`
 
 ## Utilisation
 
