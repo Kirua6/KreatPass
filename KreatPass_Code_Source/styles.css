@@ -1,0 +1,179 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1c1c1c; 
+}
+.title-bar-logo {
+  height: 30px;
+}
+  .container {
+    max-height: 90vh; 
+    overflow-y: auto;
+    background: #1c1c1c;
+    color: #ffffff;
+    width: 430px;
+    margin-left: 25px;
+    overflow-y: auto; 
+    scrollbar-width: thin; 
+    scrollbar-color: #1c1c1c #1c1c1c; 
+    scroll-behavior: smooth;
+  }
+  
+  .container::-webkit-scrollbar {
+    width: 10px; 
+}
+
+.container::-webkit-scrollbar-track {
+    background: #1c1c1c; 
+}
+
+.container::-webkit-scrollbar-thumb {
+    background: #555; 
+    border-radius: 5px; 
+}
+
+.container::-webkit-scrollbar-thumb:hover {
+    background: #666; 
+}
+
+  h1 {
+    color: #434BA0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .option-group {
+    margin-bottom: 10px;
+  }
+  
+  .option-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="checkbox"], input[type="number"], select {
+    margin-right: 10px;
+  }
+  
+  #specialCharsContainer {
+    display: none;
+    margin-bottom: 10px;
+  }
+  
+  #specialChars label {
+    display: inline-block;
+    width: 25%;
+  }
+  
+  button {
+    font-family: 'Arial', sans-serif;
+    background: #434BA0;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #6870c0;
+  }
+  
+  .generated-passwords {
+    margin-top: 15px;
+  }
+  
+  .password-item {
+    background: #f3f3f3;
+    color: #1c1c1c;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .password-text {
+    font-family: 'Courier New', monospace;
+    margin-right: 10px;
+  }
+  
+  .action-buttons {
+    display: flex;
+  }
+  
+  .action-button {
+    background: #434BA0;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .action-button:first-child {
+    margin-left: 0;
+  }
+  
+  
+  .password-item span {
+    font-family: 'Courier New', monospace;
+  }
+  
+  .icon {
+    cursor: pointer;
+  }
+  
+  .title-bar-container {
+    width: 464px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #1c1c1c; 
+    padding: 10px; 
+    color: white; 
+    -webkit-app-region: drag; 
+}
+
+.title-bar-text {
+    -webkit-app-region: drag; 
+}
+
+.window-controls {
+    -webkit-app-region: no-drag; 
+    display: flex; 
+}
+
+.window-control-btn {
+    background-color: transparent; 
+    color: white; 
+    border: none;
+    font-size: 16px; 
+    margin: 0 5px; 
+    cursor: pointer;
+    padding: 5px; 
+}
+
+.window-control-btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+/*
+#####################################
+#  .-. .-')       (`-.   _  .-')    #
+#  \  ( OO )    _(OO  )_( \( -O )   #
+#  ,--. ,--.,--(_/   ,. \,------.   #
+#  |  .'   /\   \   /(__/|   /`. '  #
+#  |      /, \   \ /   / |  /  | |  #
+#  |     ' _) \   '   /, |  |_.' |  #
+#  |  .   \    \     /__)|  .  '.'  #
+#  |  |\   \    \   /    |  |\  \   #
+#  `--' '--'     `-'     `--' '--'  #
+#####################################
+*/

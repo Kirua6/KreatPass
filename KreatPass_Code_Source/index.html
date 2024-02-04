@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="title-bar-container">
+    <img src="KreatPass.ico" alt="Logo" class="title-bar-logo">
+        <div class="title-bar-text"></div>
+        <div class="window-controls">
+        <button class="window-control-btn" id="minimize-btn">_</button>
+        <button class="window-control-btn" id="maximize-btn">[]</button>
+        <button class="window-control-btn" id="close-btn">X</button>
+        </div>
+    </div> 
+  <div class="container">
+    <h1>KREATPASS</h1>
+    <div class="option-group">
+      <label><input type="checkbox" id="includeDigits" checked> Avec des chiffres [ 1 2 3 ... ]</label>
+      <label><input type="checkbox" id="includeLowercase" checked> Avec des lettres minuscules [ a b c ... ]</label>
+      <label><input type="checkbox" id="includeUppercase" checked> Avec des lettres majuscules [ A B C ... ]</label>
+      <label><input type="checkbox" id="includeSpecial"> Avec des caractères spéciaux</label>
+    </div>
+    <div id="specialCharsContainer" class="special-chars-container">
+      <div id="specialChars" class="special-chars">
+        <!--  cases à cocher pour les caractères spéciaux insérées par JS -->
+      </div>
+    </div>
+    <div class="option-group">
+      <label><input type="checkbox" id="excludeSimilar" checked> Exclure les caractères similaires [ o O 0 l 1 ]</label>
+    </div>
+    <div class="option-group">
+      <label>Nombre de caractères :
+        <select id="length">
+          <!-- Options longueur -->
+          <option value="14" selected>14</option>
+        </select>
+      </label>
+      <label>Nombre de mots de passe :
+        <select id="count">
+          <!-- Options quantité -->
+          <option value="1" selected>1</option>
+        </select>
+      </label>
+    </div>
+    <button id="generatePassword">Créer votre mot de passe</button>
+    <div id="generatedPasswords" class="generated-passwords">
+        <!-- mots de passe générés + boutons pour les actions -->
+      </div>
+  </div>
+
+  <script src="passwordGenerator.js"></script>
+  <script src="window.js"></script>
+</body>
+</html>
+
+
+<!-- 
+#####################################
+#  .-. .-')       (`-.   _  .-')    #
+#  \  ( OO )    _(OO  )_( \( -O )   #
+#  ,--. ,--.,--(_/   ,. \,------.   #
+#  |  .'   /\   \   /(__/|   /`. '  #
+#  |      /, \   \ /   / |  /  | |  #
+#  |     ' _) \   '   /, |  |_.' |  #
+#  |  .   \    \     /__)|  .  '.'  #
+#  |  |\   \    \   /    |  |\  \   #
+#  `--' '--'     `-'     `--' '--'  #
+#####################################
+-->

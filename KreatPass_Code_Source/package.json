@@ -1,0 +1,19 @@
+{
+    "name": "kreatpass",
+    "version": "1.0.0",
+    "description": "Générateur de mots de passe sécurisé et personnalisable",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "author": {
+        "name": "Van Ruymbeke Killian",
+        "url": "https://kvrcybertechno.online"
+    },
+    "devDependencies": {
+        "electron": "^28.2.1"
+    },
+    "dependencies": {
+        "electron-packager": "^17.1.2"
+    }
+}
