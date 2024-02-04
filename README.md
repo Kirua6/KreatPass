@@ -1,6 +1,6 @@
 # KreatPass
 
-Inspiré par [MotDePasse.xyz](https://www.motdepasse.xyz/), pour son design et ses fonctionnalités, mais avec un code optimisé, KreatPass est une application de génération de mots de passe sécurisé et personnalisable. Il permet aux utilisateurs de créer des mots de passe forts en sélectionnant des critères tels que la longueur, l'inclusion de chiffres, de lettres majuscules et minuscules, ainsi que de caractères spéciaux.
+Inspiré par [MotDePasse.xyz](https://www.motdepasse.xyz/), pour son design et ses fonctionnalités, mais avec un code nouvellement créé, KreatPass est une application de génération de mots de passe sécurisé et personnalisable. Il permet aux utilisateurs de créer des mots de passe forts en sélectionnant des critères tels que la longueur, l'inclusion de chiffres, de lettres majuscules et minuscules, ainsi que de caractères spéciaux.
 
 ## Fonctionnalités
 
