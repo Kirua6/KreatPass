@@ -11,7 +11,7 @@ Inspiré par [MotDePasse.xyz](https://www.motdepasse.xyz/), pour son design et s
 
 ## Installation et Construction
 
-Pour installer directement KreatPass, aller sur les `[Releases](https://github.com/Kirua6/KreatPass/releases/tag/v1.0.0)`, télécharger KreatPass.Setup.1.0.0.exe, exécuter le fichier, quand `Windows défend votre ordinateur` apparait, cliquer sur `Informations complémentaires`, puis `Exécuter quand même`.
+Pour installer directement KreatPass, aller sur les [Releases](https://github.com/Kirua6/KreatPass/releases/tag/v1.0.0), télécharger KreatPass.Setup.1.0.0.exe, exécuter le fichier, quand `Windows défend votre ordinateur` apparait, cliquer sur `Informations complémentaires`, puis `Exécuter quand même`.
 
 Pour construire l'application KreatPass localement, suivez ces étapes :
 
