@@ -25,7 +25,7 @@ Pour installer et construire l'application KreatPass localement, suivez ces éta
 - Lancer `npm start` ou créer l'application avec `npx electron-packager . KreatPass --platform=win32 --arch=x64 --icon=KreatPass.ico`
 
 - Ça générera un dossier `KreatPass-win32-x64` contenant l'application prête à être exécutée.
-- Il suffira juste de créer et placer un raccourci sur votre bureau par la suite.
+- Il suffira juste de créer et placer un raccourci de KreatPass.exe sur votre bureau par la suite.
 
 ## Utilisation
 
