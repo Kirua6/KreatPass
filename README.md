@@ -18,7 +18,7 @@ Pour installer et construire l'application KreatPass localement, suivez ces éta
 - `cd KreatPass/KreatPass_Code_Source`
 
 2. Installez Node.js et les dépendances nécessaires :
-- Installez `[Node.js](https://nodejs.org/en)`, Vérifier son installation avec `node -- version` et `npm --version` 
+- Installez [Node.js](https://nodejs.org/en), Vérifier son installation avec `node -- version` et `npm --version` 
 - `npm install`
 
 3. Pour lancer l'application ou l'empaqueter pour Windows 64 bits, exécutez :
