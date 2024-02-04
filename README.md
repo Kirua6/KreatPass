@@ -14,15 +14,15 @@ Inspiré par [MotDePasse.xyz](https://www.motdepasse.xyz/), KreatPass est une ap
 Pour installer et construire l'application KreatPass localement, suivez ces étapes :
 
 1. Clonez le dépôt :
-- 'git clone https://github.com/Kirua6/KreatPass.git'
-- 'cd KreatPass/KreatPass_Code_Source'
+- `git clone https://github.com/Kirua6/KreatPass.git`
+- `cd KreatPass/KreatPass_Code_Source`
 
 2. Installez Node.js et les dépendances nécessaires :
-- Installez '[Node.js](https://nodejs.org/en)', Vérifier son installation avec `node -- version` et `npm --version` 
-- 'npm install'
+- Installez `[Node.js](https://nodejs.org/en)`, Vérifier son installation avec `node -- version` et `npm --version` 
+- `npm install`
 
 3. Pour lancer l'application ou l'empaqueter pour Windows 64 bits, exécutez :
-- Lancer `npm start` ou créer l'application avec'npx electron-packager . KreatPass --platform=win32 --arch=x64 --icon=KreatPass.ico'
+- Lancer `npm start` ou créer l'application avec `npx electron-packager . KreatPass --platform=win32 --arch=x64 --icon=KreatPass.ico`
 
 - Ça générera un dossier `KreatPass-win32-x64` contenant l'application prête à être exécutée.
 - Il suffira juste de créer et placer un raccourci sur votre bureau par la suite.
